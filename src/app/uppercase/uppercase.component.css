@@ -1,0 +1,42 @@
+/* case-converter.component.css */
+
+/* Style for the container div */
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #1885de;
+    background-color: #f7f7f7;
+}
+
+/* Style for the buttons */
+button {
+    margin: 10px;
+    background-color: #e0097c;
+    /* Add the background color for the buttons */
+    color: white;
+    /* Add the text color for the buttons */
+    border: none;
+    /* Remove the button border */
+    padding: 10px;
+    /* Add padding to the buttons */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+    border-radius: 5px;
+    /* Add rounded corners for the buttons */
+    height: 30px;
+}
+
+input {
+    border-color: aquamarine;
+    margin: 10px;
+}
+
+input:hover {
+    border-color: #333;
+}
+
+/* Style for the result paragraphs */
+p {
+    font-size: 18px;
+    color: #333;
+}

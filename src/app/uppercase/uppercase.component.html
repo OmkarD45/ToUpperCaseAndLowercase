@@ -1,0 +1,16 @@
+<div>
+    <h3>Enter a string:</h3>
+    <input type="text" [(ngModel)]="inputString">
+    <br>
+    <button (click)="convertToLowercase()">Lowercase</button>
+    <button (click)="convertToUppercase()">Uppercase</button>
+  </div>
+  <div>
+    <h3>Lowercase:</h3>
+    <p>{{ lowerCaseString }}</p>
+  </div>
+  <div>
+    <h3>Uppercase:</h3>
+    <p>{{ upperCaseString }}</p>
+  </div>
+  
